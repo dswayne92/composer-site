@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'AvenirNext_UltraLight';
+  src: url('/Users/dakotawayne/Documents/website/composer_website/fonts/avenir_ttf/AvenirNext-UltraLight-11.ttf')
+  format('truetype');
+}
+
+body{
+  background-color:rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-size: 48px;
+  font-weight: 0;
+  font-family: AvenirNext_UltraLight;
+
+  margin: 0;
+  padding-top:100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+

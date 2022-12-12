@@ -1,0 +1,97 @@
+.header{
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  /*border-bottom-width: 1.5px;
+  border-bottom-style: solid;*/
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.left-section{
+  flex:1;
+  display: flex;
+  align-items: center;
+ 
+  font-size: 86px;
+  padding-left: 5px;
+  padding-right:5px;
+  padding-top: 15px;
+  background-color: white;
+  white-space: nowrap;
+  
+}
+
+.subtitle{
+  margin-top: 72px;
+  margin-left:50px;
+  font-size: 48px;
+  
+}
+
+.right-section{
+  flex:1;
+  width: 200px;
+  padding-top: 28px;
+  position:relative;
+  justify-content: center;
+
+  display: flex;
+  align-items:center;
+  font-size:48px;
+  background-color: white;
+
+  
+}
+
+.contact,
+.about, 
+.works,
+.media{
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.about .tooltip,
+.works .tooltip,
+.media .tooltip{
+  top: 88px;
+  width: 122px;
+
+  font-size: 24px;
+  position: absolute;
+  background-color: rgb(170, 170, 170);
+
+  padding: 4px 0px 4px 4px;
+
+  opacity:0;
+  transition: opacity 0.15s;
+
+}
+
+.about:hover .tooltip,
+.works:hover .tooltip,
+.media:hover .tooltip{
+  opacity:1;
+  background:rgb(220, 220, 220);
+}
+
+.about:hover {
+  background:rgb(220, 220, 220);
+  transition: background 0.15s
+}
+
+
+
+.link{
+  color: black;
+  text-decoration:none;
+}
